@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+#gameArea {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid black;
+  overflow: hidden;
+  background: #e0e0e0;
+}
+#player {
+  width: 30px;
+  height: 30px;
+  background: blue;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+#obstacle {
+  width: 30px;
+  height: 30px;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+}
+#ad-container {
+  margin-top: 30px;
+}
